@@ -2,7 +2,7 @@
 
 ## Slide Link
 
-http://jonatangarciaclavo.github.io/jest-snapshots-101/
+https://jonatangarciaclavo.github.io/jest-snapshots-101/
 
 ## References
 
