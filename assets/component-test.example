@@ -1,0 +1,9 @@
+it('renders About using Snapshots', () => {
+  expect(
+    renderer.create(
+      <MuiThemeProvider>
+        <About />
+      </MuiThemeProvider>
+    )
+  ).toMatchSnapshot();
+});

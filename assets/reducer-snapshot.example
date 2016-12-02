@@ -1,0 +1,13 @@
+exports[`Test contact reducer handles REQUEST_CONTACT_SUCCESS action 1`] = `
+Object {
+  "contact": Object {
+    "email": "test@test.com",
+    "imgUrl": "http://www.test.image.com",
+    "name": "Tester",
+    "phoneNumber": "666666666",
+  },
+  "errors": Object {},
+  "isModified": false,
+  "loading": false,
+}
+`;

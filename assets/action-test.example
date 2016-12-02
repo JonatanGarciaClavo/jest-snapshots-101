@@ -1,0 +1,8 @@
+it('should handle loadData action with id params',
+  () => {
+    store.dispatch(
+      loadData({ id: '1' })
+    );
+    expect(store.getActions()).toMatchSnapshot();
+  }
+);

@@ -1,0 +1,8 @@
+exports[`Test contact actions should handle loadData action with id params 1`] = `
+Array [
+  Object {
+    "id": "1",
+    "type": "REQUEST_CONTACT",
+  },
+]
+`;

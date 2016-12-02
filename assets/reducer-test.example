@@ -1,0 +1,13 @@
+it('handles REQUEST_CONTACT_SUCCESS action',
+  () => {
+    expect(
+      contact(
+        initialState,
+        {
+          type: REQUEST_CONTACT_SUCCESS,
+          contact: testContact,
+        }
+      )
+    ).toMatchSnapshot();
+  }
+);
