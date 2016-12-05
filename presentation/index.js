@@ -61,13 +61,13 @@ export default class Presentation extends React.Component {
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
           <Slide transition={["zoom"]} bgColor={bgColor}>
-            <Heading margin="0 0 1em 0" size={2} caps textColor="#ca461a" textFont="labmedium">
+            <Heading margin="0 0 1em 0" size={2} caps textColor="#ca461a">
               Jest snapshots
             </Heading>
             <Image width="45%" src={images.jestLogo.replace("/", "")}/>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Summary
             </Heading>
             <List>
@@ -79,7 +79,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               What is Jest?
             </Heading>
             <List>
@@ -93,7 +93,7 @@ export default class Presentation extends React.Component {
             </Link>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               What is a snapshot?
             </Heading>
             <Text style={{margin: "3em 0"}} textAlign="justify" textFont="secundary" textColor="secundary">Create a file with React trees or other serializable values to simplify testing</Text>
@@ -103,7 +103,7 @@ export default class Presentation extends React.Component {
             </Link>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Action snapshot example
             </Heading>
             <CodePane
@@ -114,7 +114,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Action test example
             </Heading>
             <CodePane
@@ -125,7 +125,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Reducer snapshot example
             </Heading>
             <CodePane
@@ -136,7 +136,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Reducer test example
             </Heading>
             <CodePane
@@ -147,7 +147,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Component snapshot example
             </Heading>
             <CodePane
@@ -158,7 +158,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Component test example
             </Heading>
             <CodePane
@@ -169,7 +169,7 @@ export default class Presentation extends React.Component {
             />
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Good to know
             </Heading>
             <List>
@@ -182,7 +182,7 @@ export default class Presentation extends React.Component {
             </Link>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Pros
             </Heading>
             <List>
@@ -195,7 +195,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Cons
             </Heading>
             <List>
@@ -204,7 +204,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Why would I use Jest?
             </Heading>
             <List>
@@ -215,7 +215,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor={bgColor}>
-            <Heading size={2} caps textColor="primary" textFont="labmedium">
+            <Heading size={2} caps textColor="primary">
               Questions?
             </Heading>
             <Link href="https://github.com/JonatanGarciaClavo/jest-snapshots-101">
